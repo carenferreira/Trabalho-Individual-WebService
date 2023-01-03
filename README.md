@@ -12,10 +12,10 @@ A execução é simples visto que o projeto é um webapp que utiliza apenas Java
 # Imagens do projeto
 ![Alt text](tela/tela.png)
 
-#Vídeo de apresentação
+# Vídeo de apresentação
 
 * [Apresentação Trabalho Individual](https://youtu.be/AZG1CAp4Qdc)
 
-#GitHub Pages
+# GitHub Pages
 
 * [The elephant](https://carenferreira.github.io/Trabalho-Individual-WebService/index.html)
