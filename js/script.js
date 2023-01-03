@@ -214,7 +214,7 @@ function buscaId(id){
                             <p>${data.overview}</p>
                         </div>
                         <div class="card-action">
-                            <a href="index.html">Página Inicial</a>
+                            <a href="homePage.html">Página Inicial</a>
                         </div>
                     </div>
                 </div>
