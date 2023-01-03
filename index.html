@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/materialize.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>The elephant</title>
+</head>
+<body class="blue-grey darken-2">
+   <nav class="black nav-extended">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo">The elephant</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="sass.html">Sobre</a></li>
+          </ul>
+        </div>
+        <div class="nav-content">
+          <ul class="tabs tabs-transparent">
+            <li class="tab"><a class="active" href="homePage.html">Página Inicial</a></li>
+            <li class="tab"><a href="films.html">Filmes</a></li>
+            <li class="tab"><a href="books.html">Livros</a></li>
+          </ul>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <h3>The elephant:</h3>
+        <div>
+            <p>
+                The elephant surgiu com o intuito de ajudar pessoas sem memória de elefante. 
+                Diversas vezes nos pegamos tentando lembrar o nome de um filme ou o título de um livro e só
+                nos lembramos de uma palavra, ou simplesmente queremos achar algo relacionado a um tema específico,
+                sendo assim mais fácil buscar por um termo o que queremos.
+                Além disso, livros viram filmes e até filmes viram livros, a busca conjunta proporciona ao seu buscador
+                a oportunidade de escolher entre dois tipos distintos de entretenimento, com o mesmo objetivo, 
+                transportar a quem consome o seu conteúdo para um lugar diferente.
+                The elephant te mostra livros e filmes com seus respectivos resumos para auxiliar você na sua escolha.
+            </p>
+            <p>
+                O projeto foi criado com base na proposta de trabalho apresentada na disciplina de WebServices, consiste
+                em consumir e combinar os dados de no mínimo duas API's. O projeto tem o intuito de fornecer ao usuário 
+                informações sobre filmes e livros com base em sua busca, para isso foram utilizadas as API's 
+                <a href="https://developers.google.com/books/docs/overview">Google Books</a> e <a href="https://www.themoviedb.org/">TMDB</a>.
+            </p>
+        </div>
+        <div>
+            <h3>A pesquisa</h3>
+            <p>
+                Trata-se de um projeto simples, que faz consultas online as API's, combinando as pesquisas para que ambas retornem
+                resultados compatíveis  aos termos pesquisados.
+            </p>
+            <div class="col s12 m4">
+                <div class="card blue-grey darken-1">
+                    <div class="card-image">
+                        <img src="tela/tela.png">
+                    </div>
+                </div>
+            </div>
+            <p>No exemplo abaixo a palavra marte foi pesquisada, e a sessão de filmes apresentou o seguinte resultado</p>
+            <div class="col s12 m4">
+                <div class="card blue-grey darken-1">
+                    <div class="card-image">
+                        <img src="tela/telaPesquisaFilme.png">
+                    </div>
+                </div> 
+            </div> 
+            <p>A sessão de livros fez a mesma pesquisa e apresentou os resultados dos livros compatíveis</p>
+            <div class="col s12 m4">
+                <div class="card blue-grey darken-1">
+                    <div class="card-image">
+                        <img src="tela/telaPesquisaLivro.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <footer class="black page-footer">
+        <div class="footer-copyright">
+          <div class="container">
+          © 2022 Desenvolvido por Caren Ferreira
+          <a class="grey-text text-lighten-4 right" href="homePage.html">Página inicial</a>
+          </div>
+        </div>
+    </footer>
+</body>
+</html>
