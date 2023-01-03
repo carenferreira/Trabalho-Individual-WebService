@@ -10,4 +10,4 @@ O projeto foi criado com base na proposta de trabalho apresentada na disciplina 
 A execução é simples visto que o projeto é um webapp que utiliza apenas JavaScript, CSS e HTML, basta baixar o repositório e abrir o arquivo index.html em seu navegador
 
 # Imagens do projeto
-(tela/tela.png)
+![Alt text](tela/tela.png)
