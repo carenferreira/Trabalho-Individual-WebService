@@ -107,7 +107,7 @@ function buscaId(id){
     var URLMovieId = BASE_URL_MOVIE + 'movie/'+ num + '?api_key=' + API_KEY_MOVIE;
 
     reqMovieId.onloadend = function(){
-        resp = reqMovie.responseText;
+        resp = reqMovieId.responseText;
         resp_obj = JSON.parse(resp);
 
         if(resp_obj.success){
